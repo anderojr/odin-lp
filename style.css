@@ -11,7 +11,7 @@ a {
     text-decoration: none;
 }
 
-.hero {
+#hero {
     align-items: center;
     background-color: #FFB213;
     color: #A1451C;
@@ -76,7 +76,7 @@ a {
     width: 30%;
 }
 
-.types {
+#types {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@ a {
     text-align: center;
 }
 
-.quote {
+#quote {
     background-color: #D57400;
     color: #FFF;
     padding: 96px 0;
@@ -134,4 +134,49 @@ a {
     font-weight: 700;
     margin-top: 12px;
     text-align: right;
+}
+
+#cta {
+    padding: 96px 0;
+}
+
+.cta__div {
+    align-items: center;
+    background-color: #FFB213;
+    border-radius: 8px;
+    color: #A1451C;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 48px 48px;
+    width: 960px;
+}
+
+.cta__text {
+    font-size: 18px;
+}
+
+.cta__title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta__button {
+    background-color: #FFB213;
+    border: 2px solid #A1451C;
+    border-radius: 8px;
+    color: #A1451C;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 14px;
+}
+
+footer {
+    background-color: #EA7B17;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 18px 0;
+    text-align: center;
 }
