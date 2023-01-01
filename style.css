@@ -73,3 +73,38 @@ a {
 .hero__img {
     width: 30%;
 }
+
+.types {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+}
+
+.types__title{
+    color: #A1451C;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+.types__div {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin: 36px 0 72px 0;
+    width: 960px;
+}
+
+.types__img {
+    border: 5px solid #EA7B17;
+    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+
+.types__fig {
+    color: #A1451C;
+    font-size: 18px;
+    text-align: center;
+}
