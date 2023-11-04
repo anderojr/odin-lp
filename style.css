@@ -24,7 +24,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    width: 960px;
+    max-width: 960px;
 }
 
 .header__logo {
@@ -46,7 +46,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 96px 0;
-    width: 960px;
+    max-width: 960px;
 }
 
 .hero__copy {
@@ -83,7 +83,7 @@ a {
     padding: 32px 0;
 }
 
-.types__title{
+.types__title {
     color: #A1451C;
     font-size: 36px;
     font-weight: 900;
@@ -94,7 +94,7 @@ a {
     gap: 48px;
     justify-content: center;
     margin: 36px 0 72px 0;
-    width: 960px;
+    max-width: 960px;
 }
 
 .types__img {
@@ -120,7 +120,7 @@ a {
 .quote__div {
     margin: 0 auto;
     padding: 0 96px;
-    width: 960px;
+    max-width: 960px;
 }
 
 .quote__text {
@@ -149,7 +149,7 @@ a {
     justify-content: space-around;
     margin: 0 auto;
     padding: 48px 48px;
-    width: 960px;
+    max-width: 960px;
 }
 
 .cta__text {
@@ -172,6 +172,11 @@ a {
     padding: 6px 14px;
 }
 
+.cta__button:hover {
+    background-color: #A1451C;
+    color: #FFB213;
+}
+
 footer {
     background-color: #EA7B17;
     color: #FFF;
@@ -179,4 +184,73 @@ footer {
     font-weight: 700;
     padding: 18px 0;
     text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    .header__logo {
+        font-size: 1.25rem;
+    }
+
+    .header__link {
+        font-size: 1rem;
+        margin-left: 1rem;
+    }
+
+    .hero__div {
+        padding: 48px 2rem;
+    }
+
+    .hero__copy {
+        font-size: 1rem;
+    }
+
+    .hero__title {
+        font-size: 2.5rem;
+    }
+
+    .hero__button {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    .types__title {
+        font-size: 2rem;
+    }
+
+    .types__div {
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin: 2rem 0;
+        max-width: 50%;
+    }
+
+    .types__fig {
+        font-size: 1rem;
+    }
+
+    #quote {
+        padding: 48px 2rem;
+    }
+
+    .quote__text {
+        font-size: 1.5rem;
+    }
+
+    .quote__author {
+        font-size: 1rem;
+    }
+
+    #cta {
+        padding: 48px 2rem;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* TODO fix types__div max-width */
 }

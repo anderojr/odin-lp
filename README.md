@@ -10,4 +10,4 @@ A: 🧀
 
 _Q: When you gonna do the responsive design?_
 
-A: idk, but keep watching the repo, someday I do it ;)
+A: I've already started it, but I really don't know when will I finish it 🐌
